@@ -1,1 +1,1 @@
-# Flask-ML-Projects
+# Django-Flask-ML-Projects
