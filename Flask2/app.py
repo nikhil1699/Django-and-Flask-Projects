@@ -7,6 +7,7 @@ api = Api(app)
 
 
 def checkPostedData(postedData, functionName):
+    """Function to check posted data."""
     if (functionName == "add" or functionName == "subtract" or functionName == "multiply"):
         if "x" not in postedData or "y" not in postedData:
             return 301 #Missing parameter
